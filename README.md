@@ -74,25 +74,26 @@ Explain:
 ACIS-Risk-Analytics/
 │
 ├── data/
-│ ├── raw/
-│ └── cleaned/
+│   ├── raw/                      # Original dataset (unchanged)
+│   └── cleaned/                  # Cleaned & processed dataset
 │
 ├── notebooks/
-│ ├── 01_eda.ipynb
-│ ├── 02_hypothesis_tests.ipynb
-│ ├── 03_linear_models.ipynb
-│ ├── 04_premium_prediction_model.ipynb
+│   ├── 01_eda.ipynb                      # Exploratory Data Analysis
+│   ├── 02_hypothesis_tests.ipynb         # Statistical tests & A/B testing
+│   ├── 03_linear_models.ipynb            # Linear regression per zipcode
+│   ├── 04_premium_prediction_model.ipynb # ML model for premium prediction
 │
 ├── src/
-│ ├── preprocessing.py
-│ ├── feature_engineering.py
-│ ├── models.py
-│ ├── evaluation.py
+│   ├── preprocessing.py          # Data cleaning pipeline
+│   ├── feature_engineering.py    # Feature engineering scripts
+│   ├── models.py                 # ML model definitions + training logic
+│   ├── evaluation.py             # Metrics & evaluation utilities
 │
 ├── reports/
-│ └── final_report.pdf
+│   └── final_report.pdf          # Final analytics & business report
 │
-└── README.md
+└── README.md                     # Main project documentation
+
 
 ---
 
