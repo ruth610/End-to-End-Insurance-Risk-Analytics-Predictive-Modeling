@@ -70,29 +70,29 @@ Explain:
 ---
 
 # 📦 **Recommended Folder Structure**
-
-End-to-End-Insurance-Risk-Analytics-Predictive-Modeling/
+<!-- this should be vertically aligned -->
+End-to-End-Insurance-Risk-Analytics-Predictive-Modeling
 │
 ├── data/
-│   ├── raw/                      # Original dataset (unchanged)
-│   └── cleaned/                  # Cleaned & processed dataset
+│   ├── raw/
+│   └── cleaned/
 │
 ├── notebooks/
-│   ├── 01_eda.ipynb                      # Exploratory Data Analysis
-│   ├── 02_hypothesis_tests.ipynb         # Statistical tests & A/B testing
-│   ├── 03_linear_models.ipynb            # Linear regression per zipcode
-│   ├── 04_premium_prediction_model.ipynb # ML model for premium prediction
+│   ├── 01_eda.ipynb
+│   ├── 02_hypothesis_tests.ipynb
+│   ├── 03_linear_models.ipynb
+│   ├── 04_premium_prediction_model.ipynb
 │
 ├── src/
-│   ├── preprocessing.py          # Data cleaning pipeline
-│   ├── feature_engineering.py    # Feature engineering scripts
-│   ├── models.py                 # ML model definitions & training logic
-│   ├── evaluation.py             # Metrics & evaluation utilities
+│   ├── preprocessing.py
+│   ├── feature_engineering.py
+│   ├── models.py
+│   ├── evaluation.py
 │
 ├── reports/
-│   └── final_report.pdf          # Final analytics & business report
+│   └── final_report.pdf
 │
-└── README.md                     # Main project documentation
+└── README.md
 
 ---
 
