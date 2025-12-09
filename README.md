@@ -71,7 +71,7 @@ Explain:
 
 # 📦 **Recommended Folder Structure**
 
-ACIS-Risk-Analytics/
+End-to-End-Insurance-Risk-Analytics-Predictive-Modeling/
 │
 ├── data/
 │   ├── raw/                      # Original dataset (unchanged)
@@ -86,14 +86,13 @@ ACIS-Risk-Analytics/
 ├── src/
 │   ├── preprocessing.py          # Data cleaning pipeline
 │   ├── feature_engineering.py    # Feature engineering scripts
-│   ├── models.py                 # ML model definitions + training logic
+│   ├── models.py                 # ML model definitions & training logic
 │   ├── evaluation.py             # Metrics & evaluation utilities
 │
 ├── reports/
 │   └── final_report.pdf          # Final analytics & business report
 │
 └── README.md                     # Main project documentation
-
 
 ---
 
