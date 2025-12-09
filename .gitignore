@@ -1,5 +1,20 @@
-venv/
-__pycache__/
-__pycache__/
-data/
 
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+build/
+dist/
+
+
+.dvc/cache/
+
+dvc_storage/
+
+data/raw/MachineLearningRating_v3.txt
+
+data/interim/
+data/processed/
+
+.DS_Store
+*.swp
