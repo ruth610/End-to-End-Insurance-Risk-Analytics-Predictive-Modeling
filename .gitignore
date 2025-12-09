@@ -1,5 +1,10 @@
 venv/
 __pycache__/
 __pycache__/
-data/
 
+.dvc/
+dvc_storage/
+
+data/raw/MachineLearningRating_v3.txt
+data/interim/
+data/processed/
